@@ -1,0 +1,39 @@
+/* .accordion:focus{
+    border: 2px solid #000000;
+} */
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+.arrow-down-transform{
+    font-weight: 700;
+}
+/* .active {
+    background-color: #ffa420;
+} */
+.active > .arrow-down-transform{
+    transform: rotate(0.5turn);
+}
+/* .accordion:after {
+    position:relative;
+    right:0;
+    display: flex;
+    float:right;
+    top: 0;
+    font-family: 'icomoon';
+    content: '\ea5b';
+    font-weight: bold;
+}
+.active:after {
+    font-family: 'icomoon';
+    content: "\ea5e";
+} */
+.panel {
+    background-color: trasparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

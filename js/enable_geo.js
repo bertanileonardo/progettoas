@@ -1,0 +1,1 @@
+document.getAttribute("data-position") = "true";

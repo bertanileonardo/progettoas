@@ -1,0 +1,80 @@
+:root{
+  --colore1: rgb(30, 64, 175):
+}
+input {
+  border-radius: 50%;
+  display: block;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  top:1rem;
+}
+input:checked ~ input, input:checked ~ input::before, input:checked ~ input::after {
+  background-color: #ffffff;
+}
+input:checked + .dot-info span {
+  font-size: 13px;
+  font-weight: bold;
+}
+input:checked + .dot-info span.year {
+  color: #231f20;
+}
+input, .dot-info {
+  width: 3rem;
+  height: 3rem;
+  margin: 0px;
+}
+input {
+  background-color: transparent !important;
+  z-index: 1;
+}
+input::before, input::after {
+  content: none;
+}
+input:checked + .dot-info {
+  background-color: #f5f5f5;
+}
+
+input + .dot-info span.year {
+  font-size: 14px;
+}
+input + .dot-info span.label {
+  font-size: 12px;
+}
+input:checked + .dot-info span.year {
+  font-size: 14px;
+}
+input:checked + .dot-info span.label {
+  font-size: 12px;
+}
+.dot-info {
+  margin-top: -3rem;
+  position: relative;
+  visibility: visible;
+  border-radius: 1rem;
+  z-index: 0;
+  left: 0;
+  /* margin-left: -70px; */
+  background-color: var(--colore1);
+  text-align: center;
+}
+.dot-info span.year {
+  top: 0;
+  left: 0;
+  margin-bottom: 12px;
+  transform: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ECF0F1;
+}
+.dot-info span.label {
+  top: calc(100% + 5px);
+  text-indent: 0;
+  text-align: center;
+}
+
+

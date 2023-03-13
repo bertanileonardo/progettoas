@@ -1,0 +1,1 @@
+.accordion{cursor:pointer;width:100%;text-align:left;outline:0;transition:.4s}.arrow-down-transform{font-weight:700}.active>.arrow-down-transform{transform:rotate(.5turn)}.panel{background-color:trasparent;max-height:0;overflow:hidden;transition:max-height .2s ease-out}
