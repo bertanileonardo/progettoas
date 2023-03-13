@@ -28,8 +28,6 @@
     <link rel="preload" href="css/tailwind.css" as="style">
     <link rel="preload" href="icomoon/style.css" as="style">
     <link rel="preload" href="js/script.js" as="script">
-    <link rel="preload" as="script" href="https://cdn.iubenda.com/cs/iubenda_cs.js"/>
-    <link rel="preload" as="script" href="https://cdn.iubenda.com/cs/tcf/stub-v2.js"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link rel="preconnect" href="https://basemaps.cartocdn.com/light_all/">
@@ -138,7 +136,6 @@
       <footer class="relative flex flex-col md:flex-row justify-center bg-white dark:bg-as-nero md:justify-between items-center bottom-0 w-full mx-auto p-2 md:p-6 lg:p-8 md:max-w-5xl text-black pb-8 md:pb-0">
         <?php include 'footer.php' ?>          
       </footer>
-    <a href="https://www.iubenda.com/privacy-policy/76111223" rel="noreferrer nofollow" target="_blank"><span class="sr-only">Privacy Policy - </span></a><a href="#" role="button" class="iubenda-advertising-preferences-link"><span class="sr-only">Personalizza tracciamento pubblicitario</span></a>
         
 </body>
 </html>
