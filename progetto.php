@@ -28,8 +28,6 @@
     <link rel="preload" href="css/tailwind.css" as="style">
     <link rel="preload" href="icomoon/style.css" as="style">
     <link rel="preload" href="js/script.js" as="script">
-    <link rel="preload" as="script" href="https://cdn.iubenda.com/cs/iubenda_cs.js"/>
-    <link rel="preload" as="script" href="https://cdn.iubenda.com/cs/tcf/stub-v2.js"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link rel="preconnect" href="https://basemaps.cartocdn.com/light_all/">
@@ -40,9 +38,6 @@
     <link rel="stylesheet" href="css/accordion.min.css">
     <script src="js/script.js" async></script>
     <script src="js/app.js"></script>
-    <script src="https://cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
-    <script>(_iub=self._iub||[]).csConfiguration={cookiePolicyId:76111223,siteId:2465383,timeoutLoadConfiguration:3e4,lang:"it",enableTcf:!0,tcfVersion:2,tcfPurposes:{2:"consent_only",3:"consent_only",4:"consent_only",5:"consent_only",6:"consent_only",7:"consent_only",8:"consent_only",9:"consent_only",10:"consent_only"},invalidateConsentWithoutLog:!0,googleAdditionalConsentMode:!0,consentOnContinuedBrowsing:!1,banner:{position:"bottom",acceptButtonDisplay:!0,customizeButtonDisplay:!0,closeButtonDisplay:!0,closeButtonRejects:!0,fontSizeBody:"14px"}};</script>
-    <script async src="https://cdn.iubenda.com/cs/iubenda_cs.js"></script>
 </head>
 <body class="bg-white dark:bg-as-nero font-['Open_Sans']">
       <nav class="sticky top-0 z-50 bg-white dark:bg-as-nero w-full px-3 lg:px-0">
@@ -111,7 +106,6 @@
       <footer class="relative flex flex-col md:flex-row justify-center bg-white dark:bg-as-nero md:justify-between items-center bottom-0 w-full mx-auto p-2 md:p-6 lg:p-8 md:max-w-5xl text-black pb-8 md:pb-0">
         <?php include 'footer.php' ?>          
       </footer>
-    <a href="https://www.iubenda.com/privacy-policy/76111223" rel="noreferrer nofollow" target="_blank"><span class="sr-only">Privacy Policy - </span></a><a href="#" role="button" class="iubenda-advertising-preferences-link"><span class="sr-only">Personalizza tracciamento pubblicitario</span></a>
         
 </body>
 </html>
