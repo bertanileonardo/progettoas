@@ -40,9 +40,6 @@
     <link rel="stylesheet" href="css/accordion.min.css">
     <script src="js/script.js"></script>
     <script src="js/app.js"></script>
-    <script src="https://cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
-    <script>(_iub=self._iub||[]).csConfiguration={cookiePolicyId:76111223,siteId:2465383,timeoutLoadConfiguration:3e4,lang:"it",enableTcf:!0,tcfVersion:2,tcfPurposes:{2:"consent_only",3:"consent_only",4:"consent_only",5:"consent_only",6:"consent_only",7:"consent_only",8:"consent_only",9:"consent_only",10:"consent_only"},invalidateConsentWithoutLog:!0,googleAdditionalConsentMode:!0,consentOnContinuedBrowsing:!1,banner:{position:"bottom",acceptButtonDisplay:!0,customizeButtonDisplay:!0,closeButtonDisplay:!0,closeButtonRejects:!0,fontSizeBody:"14px"}};</script>
-    <!-- <script async src="https://cdn.iubenda.com/cs/iubenda_cs.js"></script> -->
 </head>
 <body class="bg-white dark:bg-as-nero font-['Open_Sans']">
       <nav class="sticky top-0 z-50 bg-white dark:bg-as-nero w-full px-3 lg:px-0">
